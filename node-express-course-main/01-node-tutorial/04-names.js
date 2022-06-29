@@ -1,7 +1,11 @@
 // local
-const secret = 'SUPER SECRET'
+const secret = 'SUPER SECRET';
 // share
-const john = 'john'
-const peter = 'peter'
+const john = 'john';
+const peter = 'peter';
 
-module.exports = { john, peter }
+// to share values, you need module and export
+// exporting an object
+module.exports = { john, peter };
+
+console.log(module);
